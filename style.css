@@ -1,0 +1,193 @@
+/* General reset and body styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    max-width: 900px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+header h1 {
+    font-size: 36px;
+    color: #333;
+}
+
+header p {
+    font-size: 18px;
+    color: #555;
+}
+
+/* Contact Info */
+.contact-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.contact-info p {
+    font-size: 16px;
+    color: #555;
+    margin: 5px 15px;
+}
+
+.contact-info a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+/* Professional Summary */
+h2 {
+    font-size: 24px;
+    color: #007BFF;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #007BFF;
+    padding-bottom: 5px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+.professional-summary p {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Skills Section */
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.skills-list li {
+    background-color: #f4f4f4;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-size: 14px;
+    color: #333;
+}
+
+.skills-list li:hover {
+    background-color: #007BFF;
+    color: #fff;
+}
+
+/* Experience Section */
+.job-title {
+    font-size: 20px;
+    color: #007BFF;
+    font-weight: bold;
+}
+
+.company-name {
+    font-size: 16px;
+    color: #777;
+}
+
+.date {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+.job-responsibilities {
+    margin-left: 20px;
+    font-size: 16px;
+    color: #555;
+}
+
+.job-responsibilities li {
+    margin-bottom: 5px;
+}
+
+/* Education Section */
+.degree {
+    font-size: 20px;
+    color: #007BFF;
+    font-weight: bold;
+}
+
+.school-name {
+    font-size: 16px;
+    color: #777;
+}
+
+.education-date {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+/* Certifications Section */
+.certifications {
+    list-style: none;
+    padding: 0;
+}
+
+.certifications li {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+/* Projects Section */
+.project-title {
+    font-size: 20px;
+    color: #007BFF;
+    font-weight: bold;
+}
+
+.project-description {
+    font-size: 16px;
+    color: #555;
+    margin-left: 20px;
+}
+
+/* Additional Information Section */
+.additional-info {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    font-size: 14px;
+    color: #777;
+    margin-top: 40px;
+}
+
+footer a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
